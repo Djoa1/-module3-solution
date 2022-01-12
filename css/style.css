@@ -1,1 +1,15 @@
+* {
+    box-sizing: border-box;
+}
 
+.chicken, .beef, .sushi {
+        background-color: #f8f8f8;
+        border: 1px solid;
+        margin-top: 2em;
+        padding: 1em;        
+}
+
+article h5 {
+        text-align: center;
+        color: blue;
+}
