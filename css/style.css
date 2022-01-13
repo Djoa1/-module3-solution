@@ -1,15 +1,29 @@
-* {
-    box-sizing: border-box;
-}
-
 .chicken, .beef, .sushi {
         background-color: #f8f8f8;
         border: 1px solid;
         margin-top: 2em;
-        padding: 1em;        
+        margin: 1em;
+        padding: 1em;
+
 }
 
-article h5 {
-        text-align: center;
-        color: blue;
+.menu {
+        margin: 1em;
+
+}
+/* tablet */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+        .mobile__backtop{
+                visibility: hidden;
+        }
+}
+
+
+/* monitor */
+@media only screen and (min-width: 992px){
+        .mobile__backtop{
+                visibility: hidden;
+        }
+
 }
