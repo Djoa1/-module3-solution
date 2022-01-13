@@ -14,7 +14,7 @@
 /* tablet */
 @media only screen and (min-width: 768px) and (max-width: 991px) {
 
-        .mobile__backtop{
+        .mobile__backtop, .botao__invisivel{
                 visibility: hidden;
         }
 }
@@ -22,7 +22,7 @@
 
 /* monitor */
 @media only screen and (min-width: 992px){
-        .mobile__backtop{
+        .mobile__backtop, .botao__invisivel{
                 visibility: hidden;
         }
 
